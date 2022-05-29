@@ -1,0 +1,48 @@
+{
+  "name": "netstats-cli",
+  "description": "Ethereum Network Intelligence API",
+  "version": "0.1.1",
+  "private": true,
+  "main": "./app.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "chalk": "^1.1.3",
+    "debounce": "1.0.0",
+    "debug": "^2.6.9",
+    "lodash": "^4.17.11",
+    "primus": "^7.2.3",
+    "primus-emit": "1.0.0",
+    "primus-spark-latency": "0.1.1",
+    "web3": "0.15.3",
+    "ws": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ua-mining/netstats-cli.git"
+  },
+  "homepage": "https://github.com/ua-mining/netstats-cli",
+  "bugs": {
+    "url": "https://github.com/ua-mining/netstats-cli/issues"
+  },
+  "keywords": [
+    "ethereum",
+    "network",
+    "intelligence",
+    "API"
+  ],
+  "author": "",
+  "authors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "license": "LGPL-3.0"
+}
